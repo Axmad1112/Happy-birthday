@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Dilnoza</title>
+    </head>
+    <body onmouseover="playMusic()">
+        <audio id="divAudio" autoplay controls>
+            <source  src="new_muz_23990_nbkuz.mp3" type="audio/mp3">
+        </audio>
+        <video autoplay muted loop id="myVideo">
+            <source src="happy.mp4" type="video/mp4">
+        </video>
+        
+       
+       <div class="wrapper">
+       <div class="bday" style="width:900px; margin-left: -300px;">
+          Tug'ilgan kuningiz bilan Dilnoza 
+       </div><br>
+             <div class="img-area">
+                 <div class="single-img img-one">
+                     <img src="IMG_20190609_165933.jpg" alt="">     
+                 </div> 
+                 <div class="single-img img-two">
+                    <img src="IMG_20190609_165959.jpg" alt="">     
+                </div> 
+                <div class="single-img img-three">
+                    <img src="IMG_20190609_101829824.jpg" alt="">     
+                </div> 
+                <div class="single-img img-four">
+                    <img src="IMG_20190609_102938266.jpg" alt="">     
+                </div>
+                <div class="single-img img-five">
+                    <img src="IMG_20190609_183753.jpg" alt="">     
+                </div> 
+                <div class="single-img img-six">
+                    <img src="Screenshot_1.png" alt="">     
+                </div>  
+             </div>
+       </div>
+       <script>
+        var vAudio = document.getElementById("divAudio");
+        function playMusic()
+        {
+            vAudio.play();
+        }
+
+    </script> 
+    </body>
+</html>
